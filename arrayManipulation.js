@@ -4,9 +4,9 @@ function formatArrayStrings(stringsArray, numbersArray) {
         let str = stringsArray[i];
         let num = numbersArray[i];
 
-        if (num % 2 === 0) { // Even number
+        if (num % 2 === 0) {  // If the number is Even
             formattedStrings.push(str.toUpperCase());
-        } else { // Odd number
+        } else { // If the number is odd
             formattedStrings.push(str.toLowerCase());
         }
     }
